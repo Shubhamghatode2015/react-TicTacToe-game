@@ -1,0 +1,52 @@
+.container{
+    margin: 100px;
+  }
+  h3{
+    text-transform: capitalize;
+  }
+.row {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.Square{
+  margin: 5px;
+  color: red;
+  border: 1px solid red;
+  border-radius: 5px;
+  font-weight: bold;
+  height : 100px;
+  width: 100%;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  transition: transform .2s;
+  cursor: pointer;
+}
+.Square:hover{
+  transform: scale(1.01);
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+span{
+  font-weight: bold;
+  font-size: 20px;
+  color: red;
+  text-transform: capitalize;
+
+}
+button{
+  padding: 12px;
+  margin: 5px;
+  color: red;
+  border: 1px solid red;
+  border-radius: 5px;
+  font-weight: bold;
+}
+button:hover{
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
